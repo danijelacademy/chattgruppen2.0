@@ -423,7 +423,7 @@ if (typeof(jQuery) === 'undefined') {
               arrowsCursorEnd = currentVal.indexOf(':', arrowsCursorBegin) + 2;
 
               // Scroll to selected emoji container
-              //$(d).scrollTop($(d).find('div.active img').position().top);
+              $(d).scrollTop($(d).find('div.active img').position().top);
 
               selectedEmoji = true;
 

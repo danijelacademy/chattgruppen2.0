@@ -26,11 +26,39 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="jemoji.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/jemoji-master/jemoji.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="425" column="14" lean-forward="false" selection-start-line="425" selection-start-column="14" selection-end-line="425" selection-end-column="14" />
+              <folding>
+                <marker date="1490351101813" expanded="true" signature="100:18035" ph="{...}" />
+                <marker date="1490351101813" expanded="true" signature="142:16637" ph="{...}" />
+                <marker date="1490351101813" expanded="true" signature="12022:15032" ph="{...}" />
+                <marker date="1490351101813" expanded="true" signature="12222:15025" ph="{...}" />
+                <marker date="1490351101813" expanded="true" signature="12376:14621" ph="{...}" />
+                <marker date="1490351101813" expanded="true" signature="13497:14611" ph="{...}" />
+                <marker date="1490351101813" expanded="true" signature="13530:14579" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="chat.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            <state relative-caret-position="-755">
+              <caret line="44" column="82" lean-forward="false" selection-start-line="44" selection-start-column="82" selection-end-line="44" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -47,6 +75,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/jemoji-master/jemoji.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/chat.html" />
       </list>
     </option>
   </component>
@@ -216,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CORRECT/chattgruppen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../chattgruppen/complete" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -344,16 +374,16 @@
       <workItem from="1490349672728" duration="22000" />
       <workItem from="1490349972587" duration="430000" />
       <workItem from="1490350610404" duration="77000" />
-      <workItem from="1490350785735" duration="125000" />
+      <workItem from="1490350785735" duration="912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1032000" />
+    <option name="totallyTimeSpent" value="1819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1048" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -483,10 +513,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/jemoji-master/jemoji.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="425" column="14" lean-forward="false" selection-start-line="425" selection-start-column="14" selection-end-line="425" selection-end-column="14" />
+          <folding>
+            <marker date="1490351101813" expanded="true" signature="100:18035" ph="{...}" />
+            <marker date="1490351101813" expanded="true" signature="142:16637" ph="{...}" />
+            <marker date="1490351101813" expanded="true" signature="12022:15032" ph="{...}" />
+            <marker date="1490351101813" expanded="true" signature="12222:15025" ph="{...}" />
+            <marker date="1490351101813" expanded="true" signature="12376:14621" ph="{...}" />
+            <marker date="1490351101813" expanded="true" signature="13497:14611" ph="{...}" />
+            <marker date="1490351101813" expanded="true" signature="13530:14579" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        <state relative-caret-position="-755">
+          <caret line="44" column="82" lean-forward="false" selection-start-line="44" selection-start-column="82" selection-end-line="44" selection-end-column="82" />
           <folding />
         </state>
       </provider>
