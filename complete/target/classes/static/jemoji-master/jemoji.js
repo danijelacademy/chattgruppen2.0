@@ -9,7 +9,7 @@ if (typeof(jQuery) === 'undefined') {
     var _this = this;
 
     this._icons = [
-      'smilegrin', 'smilerelieved', 'smileopenmouth', 'smileopenmouthsmilingeyes', 'smiletightlyclosedeyes', 'smileyheartshapedeyes', 'smilingeyescoldsweat', 'smilingfacewithsmileyeyes', 'smiletearsofjoy', 'smilewink', 'smileyummy'
+      'smilegrin', 'smilerelieved', 'smileopenmouth', 'smileopenmouthsmilingeyes', 'smiletightlyclosedeyes', 'smileyheartshapedeyes', 'smilingeyescoldsweat', 'smilingfacewithsmileyeyes', 'smiletearsofjoy', 'smilewink', 'smileyummy', 'smileheart', 'smileythumbsup', 'salsasangria1', 'salsasangria2', 'smileypoo'
     ];
 
     this._language = {
@@ -21,7 +21,7 @@ if (typeof(jQuery) === 'undefined') {
       },
       'en':     {
         'arrow':    '&#8592; / &#8594; to navigate',
-        'select':   '&#8629; to select',
+        'select':   'blank space to select',
         'esc':      'esc to dismiss',
         'close':    'Close'
       }
@@ -36,7 +36,7 @@ if (typeof(jQuery) === 'undefined') {
       btn:            undefined,          // Dom element for opening emoji menu. Default is 'undefined'.
       navigation:     true,               // Navigation keys. Default is 'true'.
       language:       'en',               // Info messages language. Default is 'en'.
-      theme:          'blue',             // Style theme. Default is 'blue'.
+      theme:          'red',             // Style theme. Default is 'blue'.
       resize:         undefined           // Resize function. Default is undefined.
     };
 
