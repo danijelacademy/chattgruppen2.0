@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome!</h1>
-    <div>
-        <form action="login" method="POST">
-            Username: <input name="Username" type="text"/>
-            Password: <input name="Password" type="password"/>
-            <input type="submit" value="Login"/>
-        </form>
-    </div>
+<h1>ChatUp!</h1>
+<div>
+    <form action="login" method="POST">
+        <p>Username: </p><input name="Username" type="text"/>
+        <p>Password: </p><input name="Password" type="password"/>
+        <div><input id = 'login' type="submit" value="Chat away!"/></div>
+    </form>
+</div>
 </body>
 </html>

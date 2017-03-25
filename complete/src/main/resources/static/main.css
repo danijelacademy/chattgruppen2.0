@@ -35,3 +35,30 @@ body {
     width: 25em;
     max-width: 25em;
 }
+
+
+#username {
+    color: #131e33;
+}
+
+
+#greetings{
+    overflow-y:scroll;
+    height: 400px;
+    display: list-item;
+    width: 100%;
+    text-space: 100%;
+}
+
+
+.table-striped>tbody>tr {
+    display: list-item;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    display: list-item;
+}
+
+.table>tbody>tr>td {
+    display: list-item;
+}

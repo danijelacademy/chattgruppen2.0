@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
+
     <title>ChatUp</title>
+
     <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="/main.css" rel="stylesheet"/>
+    <link href="main.css" rel="stylesheet"/>
+
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet"/>
+
     <script src="/webjars/jquery/jquery.min.js"></script>
-    <script src="../static/node_modules/emojify.js/dist/js/emojify.js"></script>
+    <script src="/node_modules/emojify.js/dist/js/emojify.js"></script>
 
     <script type="text/javascript" src="/jemoji-master/jemoji.js"></script>
     <link rel="stylesheet" href="/jemoji-master/jemoji.css"/>
@@ -13,6 +19,7 @@
     <script src="/webjars/sockjs-client/sockjs.min.js"></script>
     <script src="/webjars/stomp-websocket/stomp.min.js"></script>
     <script src="/app.js"></script>
+
 </head>
 <body>
 <noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
@@ -24,39 +31,41 @@
         <div class="col-md-6">
             <form class="form-inline">
                 <div class="form-group">
-                    <label for="connect">WebSocket connection:</label>
-                    <button id="connect" class="btn btn-default" type="submit">Connect</button>
-                    <button id="disconnect" class="btn btn-default" type="submit" disabled="disabled">Disconnect
-                    </button>
+                    <label for="connect" id = 'connecting'> Connect to chat:
+                        <button id="connect" class="btn btn-default" type="submit">Connect</button>
+                        <button id="disconnect" class="btn btn-default" type="submit" disabled="disabled">Disconnect
+                        </button></label>
                 </div>
             </form>
+        </div>
+    </div>
+
+
+    <div class="col-lg-6">
+        <div class="input-group">
+            <input type="text" id="message" class="form-control" placeholder="Say something..."/>
+            <span class="input-group-btn">
+                <button id="emoji-button" class="btn btn-default" type="button">&#9786;</button>
+                    </span>
+
         </div>
 
         <div class="col-md-6">
             <form class="form-inline">
-
                 <button id="send" class="btn btn-default" type="submit" disabled="disabled">Send</button>
             </form>
         </div>
-
-
-        <div class="col-lg-6">
-            <div class="input-group">
-                <input type="text" id="message" class="form-control" placeholder="message"/>
-                <span class="input-group-btn">
-                    <button id="emoji-button" class="btn btn-default" type="button">=D</button>
-                </span>
-            </div>
-        </div>
-
     </div>
+
+
+
 
     <div class="row">
         <div class="col-md-12">
             <table id="conversation" class="table table-striped"> <!--visa när man loggar in -->
                 <thead>
                 <tr>
-                    <th id="chatheader">Chat</th>
+                    <th id="chatheader">ChatUp!</th>
                 </tr>
                 </thead>
                 <tbody id="greetings">
@@ -65,18 +74,18 @@
         </div>
     </div>
 
-    </div>
-        <h3 id="chatheader2">Connected users</h3>
-        <p id="connectedusers"></p>
-    <div>
+</div>
+<h3 id="chatheader2">Connected:</h3>
+<p id="connectedusers"></p>
+<div>
 
 </div>
 
 <script>
 
     $('#message').jemoji({
-        btn:    $('#emoji-button'),
-        container:  $('#message').parent().parent()
+        btn: $('#emoji-button'),
+        container: $('#message').parent().parent()
     });
 
 
@@ -84,7 +93,7 @@
         if (event.which === 15) {
             var container = document.getElementById('message');
             container.innerHTML += this.value;
-            emojify.run(container);             // translate emoji to images
+            emojify.run(container); // translate emoji to images
             this.value = '';
             container.scrollTop = container.scrollHeight;
         }
@@ -92,6 +101,6 @@
 
 
 </script>
-
 </body>
 </html>
+

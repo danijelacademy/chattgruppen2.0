@@ -86,7 +86,7 @@ function showGreeting(message) {
         alert("ERROR: Wrong username and/or password.");
     } else {
         //$("#chatheader").val("test").append("<tr><td>" + message + "</td></tr>");
-        $("#greetings").append("<tr><td class='emojify-emoji'>" + message + "</td></tr>");
+        $("#greetings").append("<tr><td class='emojify-emoji'>" + message + "</td></tr>").scrollTop($("#greetings")[0].scrollHeight);
         document.getElementsByClassName('emojify-emoji').emojify(); //emojifiera inputen som skrivs ut i chatten
     }
 }
